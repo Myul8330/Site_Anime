@@ -103,7 +103,7 @@ body{
 .img-cont{
     z-index: 2;
     border-radius: 6px;
-    border: solid 2px red;
+    border: solid 2px white;
     position: absolute;
     width: 91%;
     height: 350px;
@@ -161,16 +161,20 @@ body{
 /*Conteudo episodios*/
 #eps{
     z-index: 5;
-    position: relative;
-    bottom: 60px;
+    position: absolute;
+    height: 500px;
+    bottom: -378px;
+    border-top: solid 2px white;
     margin-left: 50px;
     margin-right: 50px;
     width: 91%;
 }
-.Heps{ 
+.H1eps{
+    background-color: black;
     z-index: 6;
-    bottom: 70px;
-    right: 350px;
+    padding: 0px 20px;
+    bottom: 110px;
+    right: 500px;
     width: 330px;
     height: 28px;
     position: absolute;
@@ -190,5 +194,5 @@ body{
 }
 ::-webkit-scrollbar-thumb{
     background: red;
-    border-radius: 6px;
+    border-radius: 5px;
 }
