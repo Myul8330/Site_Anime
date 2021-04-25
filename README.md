@@ -1,4 +1,4 @@
-<h1 align="center">Site Anime (Test)</p>
+<h1 align="center">Web Site Anime (Test)</p>
 
 <H2>Meu primeiro Projeto como Desenvolvedor web.</h2>
  
