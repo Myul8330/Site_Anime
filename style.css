@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.iniciar{
+    width: 100%;
+    height: 65px;
+    float: left;
+    position: relative;
+    background-color: rgba(22, 22, 22, 0.589);
+    box-shadow: 0 10px 5px -7px rgb(0 0 0 / 9%);
+}
+/*Menu lista*/
+.menu{
+    display: inline-block;
+    position: absolute;
+    right: 30%;
+    bottom: 23px;
+    text-transform: uppercase;
+}
+.menu li{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin: 0 25px;
+    display: inline-block;
+    text-decoration: none;
+    -webkit-transition: background-color 1s;-o-transition: background-color 1s;transition: background-color 1s;
+}
+.menu li a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-right: 10px;
+}
+.menu li a:hover{
+    color: rgb(194, 10, 10);
+    text-decoration: underline red 2px;
+    text-underline-offset: 23px;
+}
+/*Cabeçalho*/
+.cabecalho h1{
+    position: absolute;
+    font-family: 'RocknRoll One', sans-serif;
+    color: white;
+    font-size: 40px;
+    left: 30px;
+    top: 0px;
+    text-shadow: 0.1em 0.1em 0.2em rgba(65, 64, 64, 0.534);
+}
+.cabecalho h1 a{
+    position:relative;
+    text-decoration: none;
+    color: white;   
+}
+/*Barra de pesquisa*/
+.pesquisa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.seach i{
+    position: relative;
+    right: 30px;
+}
+#pesq{
+    border: none;
+    text-decoration: none;
+    padding: 10px 40px 10px 10px;
+    background-color: rgb(194, 10, 10);
+    position: absolute;
+    height: 25px;
+    width: 200px;
+    right: 80px;
+    top: 20px;
+}
+/*Corpo do Conteudo*/
+.corpo{
+    box-sizing: border-box;
+    height: 100%    ;
+    width: 100%;
+    top:60px;
+    position: relative;
+}.corpo h1{
+    z-index: 3;
+    background: black;
+    font-weight: bold;
+    padding: 0px 20px;
+    position: absolute;
+    left: 35%;
+    top: 50px;
+    text-transform: uppercase;
+    color: rgb(194, 10, 10);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Imagens do conteudo*/
+.img-cont{
+    z-index: 2;
+    border-radius: 6px;
+    border: solid 2px red;
+    position: absolute;
+    width: 91%;
+    height: 350px;
+    top: 63px;
+    border-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+.img-cont img{
+    height: 270px;
+    display: inline-block;
+    border-radius:6px;
+}
+.img-cont img a:hover{
+    color: rgba(0, 0, 0, 0.356);  
+}
+.tg{
+    top: 30px;
+    position: absolute;
+    width: 189px;
+    height: 27  0px;
+    padding: 10px;
+}
+.nnt{
+    top: 30px;
+    height: 270px;
+    display: inline-block;
+    position: absolute;
+    left: 230px;
+    padding: 10px;
+}
+/*Textos do conteudo*/
+.tg p{
+    position: absolute;
+    left: 55px;
+    top: 285px;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tg a:hover{
+    color: rgb(255, 0, 0);
+}
+.nnt p{
+    position: absolute;
+    display: inline-block;
+    color: white;
+    left: 27px;
+    top: 285px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Conteudo episodios*/
+#eps{
+    z-index: 5;
+    position: relative;
+    bottom: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 91%;
+}
+.Heps{ 
+    z-index: 6;
+    bottom: 70px;
+    right: 350px;
+    width: 330px;
+    height: 28px;
+    position: absolute;
+    text-transform: uppercase;
+    color: rgb(194, 10, 10);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.epicontainer{
+    width: 100%;
+    height: 100%;
+    bottom: 50px;
+}
+/*scrollbar*/
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background: red;
+    border-radius: 6px;
+}
