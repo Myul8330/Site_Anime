@@ -8,6 +8,7 @@ body{
     background-color: black;
 }
 .iniciar{
+    z-index: 8;
     width: 100%;
     height: 65px;
     float: left;
@@ -58,27 +59,30 @@ body{
     color: white;   
 }
 /*Barra de pesquisa*/
-.pesquisa{
+.Pesquisa{
+    padding: 10px 40px 10px 10px;
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    top: 7px;
+    right: 80px;
+    width: 200px;
+    height: 30px;
 }
 .seach i{
     position: relative;
     right: 30px;
+    color: white;
+    z-index: 9;
 }
 #pesq{
     border: none;
     color: white;
     padding: 10px 40px 10px 10px;
     background-color: rgb(194, 10, 10);
-    position: absolute;
+    position: relative;
     height: 30px;
     width: 200px;
-    right: 80px;
-    top: 16px;
+    right: 0px;
+    top: 0px;
 }
 /*Corpo do Conteudo*/
 .corpo{
@@ -184,7 +188,7 @@ body{
 }
 .img-4 p{
     position: absolute;
-    left: 10px;
+    left: 0px;
     width: 220px;
     top: 285px;
     display: inline-block;
