@@ -71,14 +71,14 @@ body{
 }
 #pesq{
     border: none;
-    text-decoration: none;
+    color: white;
     padding: 10px 40px 10px 10px;
     background-color: rgb(194, 10, 10);
     position: absolute;
-    height: 25px;
+    height: 30px;
     width: 200px;
     right: 80px;
-    top: 20px;
+    top: 16px;
 }
 /*Corpo do Conteudo*/
 .corpo{
@@ -115,29 +115,43 @@ body{
 }
 .img-cont img{
     height: 270px;
-    display: inline-block;
+    display: flex;
     border-radius:6px;
 }
 .img-cont img a:hover{
     color: rgba(0, 0, 0, 0.356);  
 }
-.tg{
+.img-1{
     top: 30px;
     position: absolute;
     width: 189px;
-    height: 27  0px;
+    height: 300px;
     padding: 10px;
 }
-.nnt{
+.img-2{
     top: 30px;
-    height: 270px;
-    display: inline-block;
+    height: 300px;
     position: absolute;
-    left: 230px;
+    left: 215px;
     padding: 10px;
+}
+.img-3{
+    top: 30px;
+    height: 300px;
+    position: absolute;
+    left: 435px;
+    padding: 10px; 
+}
+.img-4{
+    top: 30px;
+    height: 300px;
+    position: absolute;
+    width: 189px;
+    left: 650px;
+    padding: 10px;   
 }
 /*Textos do conteudo*/
-.tg p{
+.img-1 p{
     position: absolute;
     left: 55px;
     top: 285px;
@@ -146,15 +160,35 @@ body{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.tg a:hover{
+.img-1 a:hover{
     color: rgb(255, 0, 0);
 }
-.nnt p{
+.img-2 p{
     position: absolute;
     display: inline-block;
     color: white;
     left: 27px;
     top: 285px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img-3 p{
+    position: absolute;
+    left: 15px;
+    width: 210px;
+    top: 285px;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img-4 p{
+    position: absolute;
+    left: 10px;
+    width: 220px;
+    top: 285px;
+    display: inline-block;
+    color: white;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
