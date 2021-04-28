@@ -32,8 +32,7 @@ header .cabecalho{
 }
 /*Menu lista*/
 .menu{
-    width: 100%;
-    max-width: 535px;
+    width: 550px;
     position: absolute;
     left: 435px;
     top: 24px;
