@@ -89,7 +89,7 @@ header .cabecalho{
 }
 #pesq{
     max-width: 200px;
-    outline: none;
+    outline: 0px;
     text-decoration: none;
     background-image: url(node_modules/feather-icons/dist/icons/search.svg);
     background-position: calc(100% - 14px)  center;
